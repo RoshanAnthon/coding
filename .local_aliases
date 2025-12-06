@@ -1,0 +1,8 @@
+alias gs='git status'
+alias ll='ls -l'
+alias gitpull=''
+alias gitpush=''
+alias gitadd=''
+alias gitcommit=''
+
+

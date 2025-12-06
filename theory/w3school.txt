@@ -1,0 +1,47 @@
+https://www.w3schools.com/python/python_variables.asp
+
+status: Start with classes
+
+https://www.w3schools.com/python/exercise.asp?x=xrcise_datatypes1
+
+Status : start with datatype 
+
+https://www.w3schools.com/python/trypython.asp?filename=demo_variables8
+
+
+Some new things:
+
+floor devision
+walrus operator
+Membership operator
+pass statement
+match with if in case
+while with else & for with else
+*args, **kwargs
+decorator functions
+function metadata
+python lamda ----> read more
+python generator & yield ---> read more
+range -- interesting!
+iterator
+RegEx ---> re , split, search etc
+raise exception -> try, except, finally
+F string & formatting
+Virtual environment --- woww
+
+CPP:
+https://www.w3schools.com/cpp/cpp_arrays_size.asp
+
+Status: Data Structures
+
+
+
+Some new things ( from C)
+strings,
+no format spec, no address to input from user, using objects to read legth etc,
+for each loop
+vector
+
+oops
+
+

@@ -1,0 +1,8 @@
+a = input("enter your name")
+print("your name is ="+a)
+b = input("enter a number")
+print(type(a))
+print(type(b))
+b = int(b)
+print(type(b))
+print("Squar of the number is", pow(b,2))
