@@ -1,0 +1,23 @@
+// this is notes for strings
+
+Strings in C programming
+====================================================
+- defined as character array - char str[] = "hello Roshan";
+- fixed size like arrays- obviosly its an array.
+- format specifier issue (%s), also not much functions
+- to add 2 strings you cant use +, you have to use strcat(str1,str2);
+- Google/chatGPT for more difference
+
+Strings in C++
+=====================================================
+- improvised like vectors
+- you can define as a string --- string s;
+- no size limit, dynamic
+- have lot of functions on it , 
+- have to use string header - same like C
+- can give a delimeter to read line of string with seperation etc. 
+
+Lets start?
+
+PRACTICE below
+https://www.geeksforgeeks.org/dsa/string-data-structure/

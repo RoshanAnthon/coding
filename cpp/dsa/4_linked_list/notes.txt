@@ -1,0 +1,17 @@
+https://www.geeksforgeeks.org/dsa/linked-list-data-structure/
+
+things exlpored:
+
+- constructors
+- "this" ----> Chatgpt-link-1
+- class as a structure in c
+- pointers to class objects
+- when to use . and when to use -> Chatgpt-link-1
+- new vs malloc, calloc,realloc
+- nullptr.
+
+
+chatgpt-links
+1. https://chatgpt.com/c/693ceaec-3f50-8322-bb81-98706a70beab
+
+C++ is interesting!!!

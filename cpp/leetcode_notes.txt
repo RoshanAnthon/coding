@@ -1,0 +1,19 @@
+//here i am trying to note down the problem and best solutions i used for them
+
+#1   -> two sum                                 ----> hashing --> unordered_map
+#2.  -> add 2 numbers                           ---> linkedlist
+#3.  -> longest substring                       --> hashing --> unordred_set or array of intergers
+#4   ->                                    SKIP --->-HARD
+#5   -> Longest Palindromic Substring           --> recursion, substrings.
+#6.  -> Zigzag Conversion                       --> vector string & some basic logic
+#7   -> Reverse integer                         ---> basic logic, but check boundary condition of integer size.
+#8   -> String to Integer (atoi)                ---> simple but tc of borderline, int_max & min. 
+#9   -> Palindrome Number                       ---> very simple, but beware of loop, INT_MAX
+#10  -> Regular Expression Matching        SKIP ---> looks easy but HARD, needs DP ( read a lot, revisit)
+#11  -> Container With Most Water               ---> simple vector, but avoid double for loops, left right
+#12  -> Integer to Roman                   SKIP --->  -- med but boring, read the logic. try it later
+#13. -> Roman to Integer                   SKIP ---> -----easy try
+#14  -> Longest Common Prefix              SKIP ---> understood the logic - try
+#15  -> 3Sum                               SKIP ---> understood the logic, but try
+#16  -> 3Sum Closest
+#17  

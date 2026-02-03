@@ -1,0 +1,154 @@
+🔍 1. Linear Search (Sequential Search)
+
+Where used:
+-Unsorted arrays
+-Small lists
+-When data is not guaranteed to be sorted
+
+Idea:
+Check each element one by one.
+
+Time complexity:
+Best: O(1) (found at start)
+Worst: O(n)
+Average: O(n)
+
+Space complexity:
+O(1) (no extra memory)
+
+When best:
+Small lists
+When the list changes frequently
+When sorting is expensive
+
+🔍 2. Binary Search
+
+Where used:
+ONLY IN SORTED arrays / vectors
+Very fast for large datasets
+
+Idea:
+Divide the array into half each time.
+
+Time complexity:
+Best: O(1)
+Worst: O(log n)
+Average: O(log n)
+
+Space complexity:
+O(1) (iterative)
+O(log n) (recursive)
+
+When best:
+When data is sorted and static
+When fast lookup is required
+
+🔍 3. Ternary Search
+
+Idea:
+Split array into three parts (only on unimodal functions)
+
+Used for:
+Finding maxima/minima in unimodal functions
+Not for normal searching
+Time: O(log₃ n)
+
+🔍 4. Jump Search
+
+Where:
+Sorted arrays
+When binary search is expensive (rare)
+
+Idea:
+Jump by √n blocks, then linear search inside block.
+
+Time:
+Worst: O(√n)
+Better than linear, slower than binary
+
+🔍 5. Exponential Search
+
+Where:
+Very large sorted arrays
+When element is near beginning
+
+Idea:
+Exponentially grow search range: 1,2,4,8,... then binary search inside.
+
+Time:
+Worst: O(log n)
+Best when element is early
+
+🔍 6. Interpolation Search
+
+Where:
+Sorted array with uniformly distributed values
+Used in telephone directory-like datasets
+
+Idea:
+Predict where element may be (like estimating position by value)
+
+Time:
+Best: O(1)
+Average: O(log log n)
+Worst: O(n) when distribution is bad
+
+🔍 7. Hash-Based Searching
+
+Examples:
+unordered_map
+
+hash tables
+dictionaries
+
+Time:
+Best: O(1)
+Average: O(1)
+Worst: O(n) (rare collisions)
+
+When best:
+Key-value fast lookup
+Most real-world scenarios use hashing (fastest average)
+
+🔍 8. Search Trees (BST, AVL, Red-Black)
+Binary Search Tree
+Worst: O(n) (becomes skewed)
+AVL / Red-Black Tree
+Always balanced
+
+Time: O(log n)
+
+Used in:
+Ordered maps
+Multisets
+Databases
+File indexing
+
+🔍 9. BFS / DFS (Graph Searching)
+
+Used when:
+Searching in trees, graphs, networks
+Maze solving
+Social network connections
+
+Time:
+O(V + E) (vertices + edges)
+
+Space:
+BFS → O(V)
+DFS → O(height)
+
+🔍 10. A* Search, Dijkstra, Greedy BFS (Advanced)
+
+Used for:
+Pathfinding
+Maps
+Games
+AI
+
+Routing algorithms (networking)
+Times:
+A* → depends on heuristic
+Dijkstra → O(E log V)
+
+

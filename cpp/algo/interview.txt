@@ -1,0 +1,105 @@
+✅ Why search & sort are important
+
+Almost every coding interview problem is built on them
+Example:
+
+Find duplicates → needs sorting or hashing
+Two-sum → binary search application
+Sliding window → sorted array property
+Greedy problems → sorted data
+
+Complexity analysis is easiest to teach using these algorithms
+Interviewers use them to test fundamentals:
+
+Big-O understanding
+Correctness
+Edge cases
+Implementation thinking
+Problem-solving
+Even senior positions get search/sort-based questions.
+
+🔥 Most Widely Asked Searching Algorithms
+
+Variants heavily asked:
+first occurrence
+last occurrence
+number of occurrences
+peak element
+rotated sorted array search
+search in mountain array
+find element equal to its index
+Binary search is a MUST-LEARN.
+
+3. Binary Search on Answer ⭐ (FAANG favorite)
+
+Searching not in array but in solution space.
+Examples:
+Minimum pages allocation
+Aggressive cows / place cows
+Koko eating bananas
+Min time to complete tasks
+Time complexity: O(log(max_possible_value))
+This is widely asked.
+
+4. Ternary Search
+Use: unimodal functions
+Time: O(log n)
+Not as common but appears in competitive programming.
+
+🔥 Most Widely Asked Sorting Algorithms
+1. Merge Sort
+
+Time: O(n log n)
+Space: O(n)
+Stable: Yes
+Use: Linked lists, large data, safe stable sorting
+
+2. Quick Sort
+
+Time:
+Average: O(n log n)
+Worst: O(n²)
+Space: O(log n)
+Use: In-place fast sorting
+
+Interviewers often ask about:
+pivot selection
+partition logic
+
+3. Heap Sort
+
+Time: O(n log n)
+Space: O(1)
+Use: When memory is tight
+Forms the basis of:
+
+k largest elements
+
+priority queues
+
+4. Insertion / Selection / Bubble Sort
+
+Time: O(n²)
+Use: Teaching Big-O
+Asked: Sometimes, but rarely for actual coding
+
+5. Counting Sort / Radix Sort
+
+Use: numbers with limited range
+Time: O(n)
+Asked: Rare but good to know
+
+🎯 MOST ASKED (Top 5)
+
+If you learn these well, 70% of questions become easy:
+
+⭐ Searching:
+
+Binary search (+ all variants)
+Binary search on answer
+
+⭐ Sorting:
+
+Merge sort
+Quick sort
+Heap sort

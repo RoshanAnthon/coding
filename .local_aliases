@@ -1,7 +1,7 @@
 alias gs='git status'
 alias ll='ls -l'
 alias gitpull=''
-alias gitpush=''
+alias gitpush='git push origin main'
 alias gitadd=''
 alias gitcommit=''
 
