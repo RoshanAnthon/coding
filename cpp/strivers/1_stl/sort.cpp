@@ -1,0 +1,1 @@
+/* write comparetor boolian function*/
