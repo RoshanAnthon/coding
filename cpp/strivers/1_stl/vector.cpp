@@ -53,4 +53,9 @@ int main()
     cout<<p4.empty()
 
 
+    ///algo
+
+    sort(p1.begin(), p1.end());
+
+
 }

@@ -1,0 +1,8 @@
+/* this repo is to practice and explore CPP STL options
+Some you might already know but have no strong basic
+some you can use in future */
+
+Algorithms -- sort, 
+Containers -- set, stack, queue, vector, hashing etc
+Functions ---ignore
+Iterators --- check vector

@@ -1,0 +1,27 @@
+basic hashing ( not STL yet)
+using indexes to get information --- somehow making find/search,insert etc as O(1) 
+--- either by using larger array, linked list etc
+
+--- watch video Hashing for more
+
+CRACK:
+
+Whenever you come across a problem, first thing you will get clicked is bruteforce..
+--- think can you do hashing on it -- user defined or STL
+--- most common hashing requirements are --- unique elements, number of time something appear, avoid loops
+
+--- parallelly you should be thinking of doing it by array, vector, ll ?
+---- also thing of tabular & recursion
+--- then use of stack, queue, dequeue, etc ( tree and graph also in advanced)
+--- finally apply DP to solve it at lesser time complexity and lesser space.
+
+things to remember during strings hashing is ascii
+
+a-z - 97 - 122 (+26)
+A-Z - 65 - 91 (+26)
+0-9 - 48 - 57 (+9)
+
+if you dont remember 'f' - 'a'  this way you can use
+
+
+------ division method as well try to learn -- simple, array of 10 can be used to store information of 100 elements

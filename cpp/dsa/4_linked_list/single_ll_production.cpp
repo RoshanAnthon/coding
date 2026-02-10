@@ -1,5 +1,5 @@
 /* after researching online, this is the best way we should be coding
-what was wrong with my eralier code?
+what was wrong with my earlier code?
 1. i used node itself as linked list, which is not recommended, even though it works. better write 2 classes, 
 one for node ( like we have struct in C) other for functions
 2. maintain head and tail pointers, so you can optimise time complexity

@@ -24,6 +24,7 @@ int main()
     multiset<int> ms; // stores even duplicates, erase(1) erases all 1's, count gives number of 1's 
     unordered_set<int> us; //random order
     map<int, int> m; //key value 
+    multimap<int, int> mm;
     unordered_map<int, int> um;
 
     st.insert(1);

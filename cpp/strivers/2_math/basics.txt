@@ -1,0 +1,50 @@
+Digits of a number
+reverse a number
+add all digits of a number
+palindrome
+armstrong number -- search if you want to know about it
+
+many more ---- use below ways
+
+
+num = num/10 ;
+rem = num % 10;
+reverse = reverse * 10 + rem
+
+=======================================================================
+
+print devisions -- 36 = 1, 2, 3, 4, 6, 9....
+
+
+for(i=1;i<=sqrt(num);i++) ----- sqrt is importent
+{
+    if(n%i == 0)
+    {
+        v.push_back(i)
+        if(n%i != i) -----> to avoid 6 two times
+            v.push_back(i);
+    }
+}
+sort and send
+
+=======================================================================
+
+GCD
+
+greatest common divisor (20,30) --- ans:10
+
+---brute -- iterate all till 20 and find
+--- use eucledian principal --- 
+
+while( a>0 && b>0)
+{
+    if(a>b) a = a%b;
+    else    b = b%a;
+}
+if(a>0) return b;
+else return a;
+
+Watch video for more
+-----------------------basic math for DSA 1:00
+
+
