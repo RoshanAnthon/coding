@@ -46,9 +46,9 @@ private:
 
         cout << n->data;   // preorder
         dfs(n->left);
-        cout << n->data;   // inorder
+        //cout << n->data;   // inorder
         dfs(n->right);
-        cout << n->data;   // postorder
+        //cout << n->data;   // postorder
     
     }
 

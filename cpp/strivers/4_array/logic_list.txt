@@ -1,0 +1,8 @@
+// all the logics on arrays
+
+1. simple traversal
+2. sum/xor/find/reverse/sort
+3. sliding window ---> left--> right-->
+4. two pointers ---> left--> <---right
+5. Hashing - set, map 
+6. stack, queue etc

@@ -1,0 +1,37 @@
+This is to write only the logics
+
+rotate an array by d places
+super easy and optimal is, reverse first d elements, then reverse next all elements and then reverse entire array..
+
+example, left rotate below array by 4 places
+0,1,2,3,4,5,6,7,8,9 --> expected ---> 4,5,6,7,8,9,0,1,2,3
+
+how to solve
+1. reverse left 4 elements ----> 3,2,1,0,   4,5,6,7,8,9
+2. reverse right elements -----> 3,2,1,0,   9,8,7,6,5,4
+3. reverse entirely -----------> 4,5,6,7,8,9,  0,1,2,3
+
+
+find missing number
+1,2,4,5 --> 3 is missing
+
+optimal is 2 ways 
+1. total sum - actual sum  ---> tsum = n*(n-1)/2  - 1+2+4+5
+2. xor ---> xo1 = 1^2^3^4^5.  ^   xor2 = 1^2^4^5 
+
+find non repeating number, 
+1,1,2,3,3,4,4 ---> same above xor is the solution ---> 
+duplicates cancel each other, but not good for num repeating 3 odd times
+
+longest subararay
+-- only positive & 0's- sliding window --- remember the sequence, right loop to n, sum, left movement, l-r+1
+-- -ve then use hashmap --( not good for 0's)
+
+
+low:
+
+med:
+1. num of 0,1,2's -->(leet) 75.sort colors --> (dutch flag algo)
+2.
+
+high:

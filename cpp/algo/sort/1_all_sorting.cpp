@@ -12,10 +12,29 @@ int main()
     /* whole logic here is, compare adjustant element, and greater one keep pushing( swapping) till the last,
     then repeat the same till you reach end
     remember - keep bursting small small bubbles of swap by comparing them till the array is sorted-- so bubble
-    worst time complexity after linear*/
+    worst time complexity after linear
+    
+    how to implement?
+    i goes from 0 to n-1
+    j goes from 0 to n-i-1
+    compare both j & j+1 and swap
+
+    why loop is like this, here i is iterating to do multiple rounds of swap, whe i is 0, by swapping j & j+1 
+    you can make the largest come to last. then i is 1, by swapping, second largest will come to second last..
+    it goes on, thats why j condition is j<n-i-1, cos i number of elements are already sorted at right...
+
+    in short its like finding largest and pushing it to last by comparing and swapping till you reach there, 
+    bursting bubbles or swap.
+
+    improvement, you can add swapped check, to avoid empty run when all are sorted
+    also you can loop in below way 
+    i n-1 to 0, j 0 to i-1
+
+    */
     cout<<"Bubble sort algorithm\n";
     for (int i=0;i<n-1;i++)
     {
+        int swapped = 0;
         for (int j=0;j<n-i-1;j++)
         {
             if(v[j]>v[j+1])
@@ -30,8 +49,10 @@ int main()
                 v[j+1]=v[j]^v[j+1];
                 v[j]=v[j]^v[j+1];
                 // many other ways to swap without using 3rd variable
+                swapped = 1;
             }
         }
+        if(swapped == 0) { break; }
     }
     for (int i=0;i<n;i++)
     {
@@ -40,7 +61,13 @@ int main()
 
     // Selection sort algorithm
     /* logic here is, for each element i, find minimum in its right array elements, and swap that to ith place, 
-    remember - select min in subarray and keep pushing it to first so selection*/
+    remember - select min in subarray and keep pushing it to first so selection
+    
+    how to implement?
+    i goes from 0 to n-1
+    j goes from i+1 to n
+    any element of j is less than i element, swap... thats it
+    */
     cout<<"\nSelection sort algorithm\n";
     v={1,3,5,2,7,9,4,3};
     for (int i=0;i<n-1;i++)
@@ -62,7 +89,14 @@ int main()
     // insertion sort algorithm
     /* logic here is, start from 1, for every element of i, maintain its left side elements sorted, 
     then compare each element with i by moving left, and as soon as you find lesser number, place next to it...
-    remember - keep serching element perfect place in already sorted part and insert it there- so insertion sort*/
+    remember - keep serching element perfect place in already sorted part and insert it there- so insertion sort
+    
+    how to implement?
+    i runs from 1 to n
+    j runs from i-1 to 0 ( reverse from i)
+    and checks if any element is left sub array of i is bigger, then you shift them to one place right ...
+    making place for i.... then place that ith element in that space created.
+    */
     cout<<"\nInsertion sort algorithm\n";
     v={1,3,5,2,7,9,4,3};
     for (int i=1;i<n;i++)
