@@ -1,0 +1,116 @@
+This is a document for my future self. assume that i have almost completed the dsa training ( udemy + strivers)
+strivers is the best.
+
+Strivers is going to monetise his channel, before it, download and keep them handy.
+
+This is quick check and revise, trying to list it down topicwise
+
+0. Basics
+	a. maths
+	b. bit manipulations
+	c. pointers ( single, double, ref, address etc)
+	d. oops (members, functions, ineritance, polim, child classes etc)
+	e. recursion
+
+1. Arrays/Vectors
+
+	a. simple problems
+
+		Theory:
+		------------------------------------------
+
+		Examples:
+		--------------------------
+
+	b. binary search ( big topic )
+	c. two pinter
+	d. 3 pointer
+	e. sliding window pattern
+	e. 2d arrays
+
+
+2. Strings
+	a. using char array with ascii
+	b. str..
+	c.
+
+
+3. Bit manipulation
+	a. left/right shift
+	b. 1's/2's complement
+	c. endian
+	d. numeric
+
+4. pointers
+	a. pinters on linked list
+	b. address manipulation
+	c. double pointers
+	d. stack/heap
+
+5. Stack/queue
+	
+
+6. Linked list
+	a. single linked list
+		Theory
+		common implementations
+			-- add, remove, traverse elements , head add/delete etc
+		problems
+			-- reverse linked list
+			-- find a loop
+			-- find mid
+			-- delete if no head given
+			-- common node/ merge point between 2 linked list
+			-- ...
+	b. double linked list
+		
+	c. circular linked list
+
+
+	d. few applied problems -- interview imp
+
+7. Tree
+	Theory
+	Implementations
+		-- creating a tree, using struct or class
+		-- DFS , BFS/Level
+		-- virtical order, left, right, bottom view
+
+		
+8. Graph
+9. DP
+	Theory
+	-- DP on arrays
+	-- grid /matrix
+	-- subsets
+	-- strings -- LCS, LPS ( subsequence, substrings)
+	-- stocks
+	-- LIS
+	-- partition DP/MCM , front partitiion, ---- toughest!!!!!
+	-- DP on rectangles
+	-- DP on bits, tree, graph (advanced)
+10. STL code problems
+	-- hashmaps
+	-- set, unordered set/map etc
+	-- dequeue
+	-- priority queue
+	-- heap
+	-- trie
+	-- 
+
+11. more applied things
+	-- recursion stack problems
+	
+
+
+------------------------------------- patterns ------
+
+sorted array	--- binary search, two pointer
+subsets  ---- sliding window , 3 pointer
+reverse list -- stack
+grid -- graph
+tree structure -- tree
+recusion stack - DP
+time complexity - DP
+
+

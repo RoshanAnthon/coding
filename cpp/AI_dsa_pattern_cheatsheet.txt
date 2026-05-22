@@ -1,0 +1,791 @@
+0. Foundations (VERY IMPORTANT)
+These decide whether you struggle later.
+	0a. Mathematics
+		Theory
+			Prime numbers -- notes: sieve
+			Factors/divisors
+			GCD/LCM
+			Euclid algorithm-- imp -- GCD -- leet-592 
+			Modular arithmetic
+			Fast exponentiation
+			Logarithms
+			Permutations/combinations
+			Probability basics
+			Prefix sums math
+			Overflow handling
+		Strivers addition  ------> Playlist - https://youtube.com/playlist?list=PLgUwDviBIf0oFON1SRGcMqMIhiZ4EXx_F&si=GmAzN-ErgVVxK_zW
+			
+
+		Problems
+			Count primes ------------ leet-204
+			Sieve  ------------ leet-204 - trick - bool array set true for multiple of prime
+			Power(x,n) ---------leet -50 -->trick - devide the power, https://www.youtube.com/watch?v=l0YC3876qxg
+			Trailing zeroes ------ leet -172 -- trick multiple of 5
+			Happy number --- leet 202 - trick- set
+			Fraction problems -- leet-592( do more)
+
+	0b. Time & Space Complexity
+		Theory
+			Big O
+			Big Omega
+			Big Theta
+			Amortized complexity
+			Recursive complexity
+			Space complexity
+			Worst/average/best case
+			Important
+			nested loops ≠ always O(n²)
+			recursion tree analysis
+			logarithmic reduction
+		Strivers Addition - https://youtu.be/FPu9Uld7W-E?si=6YuTDP1KhthTV8LI
+
+	0c. Bit Manipulation
+		Theory
+			AND OR XOR NOT
+			left/right shift
+			signed vs unsigned
+			1’s complement
+			2’s complement
+			endianness
+			bit masking
+			set/unset/toggle/check bit
+			parity
+			overflow
+			bit fields
+		Striver addition ---> Playlist - https://youtube.com/playlist?list=PLgUwDviBIf0rnqh8QsJaHyIX7KUiaPUv7&si=Ixxvtcfr4bAkfLd- 
+			convert dec to binary -- devide by 2, keep string reminder till n become 1, and print the rem array in reverse way
+				binary to decimal -- start from end, if 1 add 2powers, keep incremenenting 2power
+		Patterns
+			power of 2
+			odd/even
+			XOR tricks
+			subset generation
+			masks
+
+		Important Problems
+			single number -- leet-136 -- xor
+			missing number -- leet-268 -- xor
+			count set bits -- geeks - >>1
+			reverse bits -- leet-190 --> left, right shift & | with ans
+			power of two -- leet-231 --> n& n-1
+			subset masks
+
+		Notes: always remember operator precidence here, use brackets when comparing etc if you are using bitwise;
+
+	0d. Pointers & Memory
+	    This is VERY important for embedded/platform/kernel interviews.
+		Theory
+			pointer basics
+			address/value
+			dereference
+			pointer arithmetic
+			array vs pointer
+			function pointers
+			double pointers
+			pointer to pointer
+			void pointers
+			references
+			const pointer vs pointer to const
+			dangling pointer
+			wild pointer
+			null pointer
+			stack vs heap
+			memory alignment
+			padding
+			memory layout of process
+		Advanced
+			smart pointers
+			RAII
+			placement new
+			memory leaks
+			fragmentation
+			Problems
+			reverse string using pointers
+			swap via pointers
+			linked list manipulation
+			dynamic 2D arrays
+
+	0e. OOPs in C++
+		Theory
+			class/object
+			constructor/destructor
+			copy constructor
+			move constructor
+			operator overloading
+			inheritance
+			polymorphism
+			abstraction
+			encapsulation
+			virtual function
+			vtable/vptr
+			multiple inheritance
+			diamond problem
+			templates
+			namespaces
+			friend class/function
+		Advanced
+			Rule of 3/5
+			shallow vs deep copy
+			object slicing
+			static members
+			inline functions
+		Strivers Addition - one video - https://youtu.be/EAR7De6Goz4?si=-RiHDPkXRyPBYWpK
+
+	0f. Recursion & Backtracking
+	MOST IMPORTANT foundation for DP.
+		Theory
+			recursive thinking
+			base case
+			recursion tree
+			pick/not-pick
+			parameterized recursion
+			functional recursion
+			backtracking
+			recursion stack
+		Strivers addition -- https://youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&si=JSbPFHS7NXXRbUjS
+			..
+		Patterns
+			subsets
+			permutations
+			combinations
+			palindrome partition
+			N-Queens
+			Sudoku
+		Must Understand
+			1. pick / not pick
+			2. explore all paths
+			3. divide and conquer
+			4. state restoration (backtracking)
+	0g. Other importent things to improvise
+		Pattern recognition
+			Strivers - https://youtu.be/tNm_NNSB3_w?si=s0lDqAy6fIOulN3V
+
+1. Arrays & Vectors
+    Theory
+	contiguous memory
+	cache locality
+	prefix/suffix arrays
+	in-place operations
+	rotations
+    Strivers Addition --> playlist -- https://youtube.com/playlist?list=PLgUwDviBIf0rENwdL0nEH0uGom9no0nyB&si=6-rDpBAt2YubXaUj
+
+    Patterns
+	a. Traversal
+		max/min
+		second largest
+		frequency
+
+	b. Prefix/Suffix
+		prefix sum
+		product except self
+
+	c. Binary Search (BIG TOPIC)
+		Theory
+			monotonic condition
+			lower bound
+			upper bound
+			search space reduction
+		Strivers Addition - https://youtube.com/playlist?list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF&si=suCoXEm6Voob_suX
+
+		Problems
+			rotated array
+			peak element
+			allocate books
+			aggressive cows
+			kth smallest
+			binary search on answer
+
+	d. Two Pointer
+		Patterns
+			opposite ends
+			slow-fast pointer
+			partitioning
+			Problems
+			pair sum
+			remove duplicates
+			container water
+			trapping rain water
+		Strivers Addition -- https://youtube.com/playlist?list=PLgUwDviBIf0q7vrFA_HEWcqRqMpCXzYAL&si=UnRkYSznGyxSN6IA
+
+	e. Sliding Window
+			Fixed Window
+			max sum k
+			Variable Window
+			longest substring
+			smallest subarray
+		Strivers Additioin -- above two pointer playlist
+		Problems
+			longest unique substring
+			max consecutive ones
+			fruits into baskets
+
+	f. Kadane Pattern
+		maximum subarray
+		circular subarray
+		subset masks
+	g. Matrix / 2D Arrays -- there in strivers arrays
+		Problems
+			spiral traversal
+			rotate matrix
+			set matrix zero
+			flood fill
+			islands
+
+2. Strings
+
+	Theory
+		char array vs string
+		ASCII
+		UTF basics
+		immutable vs mutable
+		hashing basics
+	Patterns
+		frequency counting
+		palindrome
+		two pointers
+		sliding window
+		string hashing
+	Important Problems
+		anagram
+		longest palindrome
+		longest substring
+		KMP
+		Rabin Karp
+		Z algorithm
+		minimum window substring
+
+3. Linked List
+	Patterns
+		Single Linked List
+		Implementations
+		insert head/tail
+		delete
+		traverse
+		reverse
+	Strivers addition - https://youtube.com/playlist?list=PLgUwDviBIf0rAuz8tVcM0AymmhTRsfaLU&si=0WnVRQimVYHObjLL
+
+	Important Problems
+		reverse list
+		detect cycle
+		middle node
+		merge sorted lists
+		remove nth node
+		intersection point
+		palindrome list
+		flatten list
+
+	Doubly Linked List
+		insert/delete
+		LRU cache base
+		Circular Linked List
+		Josephus problem
+
+4. Stack & Queue
+
+	Stack
+		Theory
+			LIFO
+			recursion relation
+
+		Problems
+			valid parentheses
+			next greater element
+			histogram
+			monotonic stack
+
+	Queue
+		Theory
+			FIFO
+			circular queue
+			deque
+		Problems
+			sliding window maximum
+			BFS
+	Strivers addidion - https://youtube.com/playlist?list=PLgUwDviBIf0oSO572kQ7KCSvCUh1AdILj&si=4FF0F9a-POuZHrLd
+
+5. Hashing
+	Theory
+		hash function
+		collisions
+		chaining
+		open addressing
+		STL
+		map
+		unordered_map
+		set
+		unordered_set
+		multiset
+	Strivers Placement addition - https://youtube.com/playlist?list=PLgUwDviBIf0rVwua0kKYlsS_ik_1lyVK_&si=d8KIyFqBt6Lt6fqR
+					https://youtu.be/KEs5UyBJ39g?si=DrrHKcpG1WffLGra
+	Problems
+		two sum
+		group anagrams
+		top k frequent
+
+6. Trees
+	Theory
+		node/edge
+		height/depth
+		balanced tree
+	Traversals
+		DFS
+			inorder
+			preorder
+			postorder
+		BFS
+			level order
+	Important Problems
+		height
+		diameter
+		balanced tree
+		LCA
+		zigzag
+		boundary traversal
+		vertical order
+		left/right/top/bottom view
+		serialize deserialize
+	BST
+		Problems
+			validate BST
+			kth smallest
+			predecessor successor
+			recover BST
+	Strivers Addidion -- https://youtube.com/playlist?list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk&si=3RiG2uZV_ljsXLsw
+
+7. Heap / Priority Queue
+	Theory
+		min heap
+		max heap
+		heapify
+	Problems
+		kth largest
+		merge k lists
+		top k frequent
+		median stream
+
+8. Trie
+	Theory
+		prefix tree
+		bit trie
+
+	Problems
+		word search
+		autocomplete
+		max XOR
+
+9. Graphs
+VERY IMPORTANT.
+	Theory
+		adjacency list/matrix
+		directed/undirected
+		weighted graph
+
+	Traversals
+		BFS
+		DFS
+
+	Problems
+		Connectivity
+		islands
+		provinces
+		Cycle Detection
+		directed
+		undirected
+		Topological Sort
+		Kahn
+		DFS topo
+		Shortest Path
+		Dijkstra
+		Bellman Ford
+		Floyd Warshall
+		MST
+		Kruskal
+		Prim
+
+	Advanced
+		DSU
+		SCC
+		Bridges
+		Articulation points
+	Strivers Addidion  -- https://youtube.com/playlist?list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&si=weIcDtB-6lhvY7dA
+
+
+
+10. Dynamic Programming
+Most difficult topic.
+
+	DP FLOW
+		Recursion→ Memoization→ Tabulation→ Space Optimization
+
+	Core Concepts
+	Identify:
+		1. state2. transition3. base case4. overlapping subproblems
+
+	DP Categories
+		a. Fibonacci Pattern
+		b. Climbing stairs
+		c. Grid DP
+		d. Subsequences
+		e. Knapsack
+		f. Partition DP
+		g. Interval DP
+		h. String DP
+		i. LIS DP
+		j. Stock DP
+		k. Bitmask DP
+		l. Tree DP
+		m. Digit DP
+
+	Must Solve
+		0/1 knapsack
+		subset sum
+		coin change
+		LCS
+		LIS
+		edit distance
+		matrix chain multiplication
+		burst balloons
+		palindrome partition
+		house robber
+		ninja training
+	Strivers Addition -- https://youtube.com/playlist?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY&si=207ZRmzA2KocPfkB
+
+11. Greedy
+	Theory
+		local optimum
+		proof intuition
+
+	Problems
+		interval scheduling
+		meeting rooms
+		jump game
+		gas station
+		Huffman coding
+	Strivers Addition - https://youtube.com/playlist?list=PLgUwDviBIf0rF1w2Koyh78zafB0cz7tea&si=gHfzvAOu3G9YW_X_
+			    https://youtube.com/playlist?list=PLgUwDviBIf0pmWCl2nepwGDO05a0-7EfJ&si=IIV2LdLoPItXwz3R
+
+12. STL & C++ Library Mastery
+VERY IMPORTANT for interviews.
+	Containers
+	vector
+	deque
+	list
+	map
+	unordered_map
+	set
+	multiset
+	stack
+	queue
+	priority_queue
+
+	Algorithms
+		sort
+		lower_bound
+		upper_bound
+		next_permutation
+		binary_search
+
+	Important
+		custom comparator
+		lambda
+		iterators
+		iterator invalidation
+	Strivers Addition - one video - https://youtu.be/RRVYpIET_RU?si=2EqBg-RwiP4wPJzH
+
+13. Advanced Topics
+
+	Segment Tree
+	Fenwick Tree
+	Sparse Table
+	Union Find
+	LRU Cache -- vvvimp -- striver playlist hashing
+	LFU Cache -- vvvimp -- striver playlist hashing
+	Rolling Hash
+	KMP
+	Manacher
+	Suffix Array
+
+14. System-Level C++ (IMPORTANT FOR YOU)
+Since you’re aiming for networking/platform/kernel-side roles.
+	Memory
+		stack/heap/data/bss/text
+		malloc/new
+		fragmentation
+		alignment
+		cache line
+		paging basics
+
+	Linux Concepts
+		processes
+		threads
+		scheduling
+		mutex
+		semaphore
+		deadlock
+		IPC
+		signals
+
+	Networking Related
+		sockets
+		endian
+		packet parsing
+		byte ordering
+		serialization
+
+	Debugging
+		gdb
+		valgrind
+		core dump
+		sanitizers
+
+
+MASTER PATTERN MAP
+
+ARRAY PATTERNS
+sorted array    → binary search    → two pointersubarray problems    → sliding window    → prefix sumkth/largest/smallest    → heap    → binary search on answerfrequency problems    → hashmaprange query    → prefix sum    → segment tree
+
+STRING PATTERNS
+palindrome    → two pointersubstring    → sliding windowmatching    → KMP    → hashing
+
+LINKED LIST PATTERNS
+cycle    → slow-fast pointerreverse    → iterative    → recursion
+
+TREE PATTERNS
+hierarchical    → DFSlevel wise    → BFSpath problems    → recursion
+
+GRAPH PATTERNS
+shortest path    → BFS/Dijkstradependency    → topological sortconnectivity    → DFS/BFS/DSU
+
+DP PATTERNS
+choice making    → pick/not-pickcount ways    → DPmin/max optimization    → DPpartitioning    → interval DP
+
+INTERVIEW PREPARATION ORDER
+Recommended order:
+1. Complexity
+2. Arrays
+3. Strings
+4. Linked List
+5. Stack/Queue
+6. Hashing
+7. Binary Search
+8. Recursion
+9. Trees
+10. Heap
+11. Graph
+12. DP
+13. Trie
+14. Advanced DS
+
+MOST IMPORTANT INTERVIEW SKILLS
+Not just solving.
+You must learn:
+	pattern recognition --- Strivers - https://youtu.be/tNm_NNSB3_w?si=s0lDqAy6fIOulN3V
+	dry run
+	edge cases
+	brute force → optimize
+	communicating approach
+	writing bug-free code
+	complexity analysis
+
+FOR YOUR TARGET (Cisco/Arista/Juniper type roles)
+Prioritize:
+	pointers
+	memory
+	recursion
+	trees/graphs
+	STL
+	bit manipulation
+	concurrency basics
+	debugging
+	Linux internals
+	networking basics
+	implementation-heavy coding
+	These companies often value:
+	correctness
+	low-level understanding
+	clean implementation
+	debugging ability
+
+
+Sorting:
+
+	Theory
+
+	You should know:
+
+		Algorithm	Time	Stable	In-place	Notes
+		Bubble Sort	O(n²)	Yes	Yes	Mostly academic
+		Selection Sort	O(n²)	No	Yes	Minimal swaps
+		Insertion Sort	O(n²)	Yes	Yes	Good for small/nearly sorted
+		Merge Sort	O(n log n)	Yes	No	Divide & conquer
+		Quick Sort	Avg O(n log n)	No	Yes	Most important
+		Heap Sort	O(n log n)	No	Yes	Heap based
+		Counting Sort	O(n+k)	Yes	No	Integers/range
+		Radix Sort	O(nk)	Yes	No	Digits/strings
+		Bucket Sort	Avg O(n)	Depends	Depends	Distribution-based
+	
+	Must Understand Deeply
+	a. Merge Sort
+		Concepts
+			divide and conquer
+			merging sorted halves
+			recursion tree
+			Important
+			stable
+			inversion count
+			external sorting
+		Problems
+			sort array
+			count inversions
+			reverse pairs
+	b. Quick Sort
+		Concepts
+			pivot
+			partitioning
+			Lomuto partition
+			Hoare partition
+		Important
+			worst case O(n²)
+			randomized pivot
+			in-place sorting
+		VERY Important
+		Quick sort teaches:
+			partition logic
+			pointer movement
+			recursion boundaries
+	c. Heap Sort
+		Concepts
+			heapify
+			parent/child indexing
+		Important
+			priority queue relation
+			kth largest problems
+	d. Counting/Radix Sort
+		Important for:
+			integers
+			constrained ranges
+			bit-based sorting
+
+		Used in:
+			packet processing
+			low-level optimizations
+			competitive programming
+			STL Sorting (VERY IMPORTANT)
+	Strivers Addition - selection, bubble, insertion -- https://youtu.be/HGk_ypEuS24?si=z9c1IFf5WC7crJbz
+			    merge - https://youtu.be/ogjf7ORKfd8?si=5Ic3wI5bkpyyW4iT
+			    quick - https://youtu.be/WIrA4YexLRQ?si=AXq_-2nfc337gLH5
+
+	In C++ interviews:
+		sort()
+		sort(arr.begin(), arr.end());
+		Internally
+	Usually:
+		IntroSort
+		Quick sort
+		Heap sort fallback
+		Insertion sort for small ranges
+	Custom Comparator
+		sort(v.begin(), v.end(),
+		[](auto &a, auto &b){
+		    return a.second < b.second;
+		});
+
+	VERY important.
+		Stable Sort
+		stable_sort(v.begin(), v.end());
+
+	Understand:
+		when stability matters
+	Example:
+		sort by marks
+		then preserve roll order
+		Sorting Patterns
+		1. Sort + Two Pointer
+			pair sum
+			triplets
+			4-sum
+			merge intervals
+		2. Sort + Greedy
+			meeting rooms
+			job scheduling
+			activity selection
+			minimum platforms
+		3. Sort + Binary Search
+			binary search on sorted data
+			lower_bound
+			upper_bound
+		4. Sort + Heap
+			top k elements
+			merge k arrays
+		5. Custom Sorting
+		VERY common interviews.
+		Examples
+			sort by frequency
+			largest number formation
+			interval sorting
+			string comparator problems
+		Important Problems
+			Easy
+				sort colors
+				merge intervals
+				meeting rooms
+			Medium
+				kth largest
+				largest number
+				top k frequent
+			Hard
+				reverse pairs
+				count inversions
+				median of data stream
+				Internal/External Sorting
+
+		Useful for systems interviews.
+			Internal Sorting
+				Data fits in RAM.
+			External Sorting
+				Data too large for memory.
+
+		Concepts
+			chunk sorting
+			merge files
+			used in databases
+			Stability (VERY IMPORTANT)
+			Stable Sorting
+			Preserves relative order.
+
+		Example:
+
+		(John, 90)
+		(Alice, 90)
+
+		After stable sort by marks:
+
+		John still before Alice
+		In-place vs Extra Memory
+
+		Interviewers ask this often.
+
+		Algorithm	Extra Space
+		Quick Sort	O(log n) recursion
+		Merge Sort	O(n)
+		Heap Sort	O(1)
+		Advanced Sorting Concepts
+		Quick Select
+		kth smallest/largest
+		partition based
+		Dutch National Flag
+		3-way partitioning
+		Partial Sorting
+		nth_element
+		SYSTEMS/LOW LEVEL RELEVANCE
+
+		For your goals:
+
+		packet prioritization
+		scheduler queues
+		routing tables
+		heap scheduling
+		cache-efficient sorting
+
+		Sorting knowledge matters more than people think in networking/software infrastructure.
+		more than ultra-hard competitive programming tricks initially.
